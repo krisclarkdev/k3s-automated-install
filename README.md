@@ -7,6 +7,7 @@ Simple script that automates the k3s install on multiple nodes
 * Assumes you've added all node IP addresses to line 4 and line 5
 * Assumes you've changed the username on line 3 to match that of the nodes
 * Assumes you're running this on OS X, I've only tested this on OS X.  It *should* work on other distros with bash but I'm unsure on the sed command
+* Assumes you already have kubectl installed on the machine you're running this from
 
 # Usage
 
