@@ -46,3 +46,5 @@ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manif
 helm repo add wavefront https://wavefronthq.github.io/helm/ && helm repo update
 kubectl create namespace wavefront && helm install wavefront wavefront/wavefront --set wavefront.url=https://try.wavefront.com --set wavefront.token=TOKEN --set clusterName="k3s" --namespace wavefront
 echo "Done"
+
+kubectl get nodes | sort -k1
