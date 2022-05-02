@@ -13,7 +13,7 @@ Simple script that automates the k3s install on multiple nodes
 If you want to automate any kubectl commands you can do so at the bottom of the script.  I'm automatiaclly installing Tanzu Observability as an example
 
 ```
-git clone .
+git clone https://github.com/krisclarkdev/k3s-automated-install.git
 cd k3s-automated-install
 # Make changes according to the assumptions section
 ./createCluster.sh
